@@ -80,7 +80,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Akash Yadav is a CSE student at Chandigarh University currently in his
-          5th semester. He is currently working on his startup too named {' '}
+          6th semester. He is currently working on his startup too named {' '}
           <NextLink href="/works/inkdrop" passHref scroll={false}>
             <Link>खेल-toh</Link>
           </NextLink>
@@ -130,7 +130,7 @@ const Home = () => (
           <Link href="https://www.instagram.com/peaceefr/" target="_blank">
             Editing
           </Link>
-          , Exploring, Machine Learning
+          , Exploring
         </Paragraph>
       </Section>
 

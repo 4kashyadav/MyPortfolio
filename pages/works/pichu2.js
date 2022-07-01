@@ -17,29 +17,33 @@ const Work = () => (
   <Layout title="Netflix Clone">
     <Container>
       <Title>
-        Netflix Clone <Badge>2020</Badge>
+        Watch me Travel<Badge>2022</Badge>
       </Title>
       <P>
-        A Clone of Netflix made through ReactJS.
+        A Social media App for travellers.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows</span>
+          <span>Windows/ iOS/ Android</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, CSS, ReactJS</span>
+          <span>Flutter, Firebase</span>
         </ListItem>
       </List>
+      <Link href="https://github.com/4kashyadav/WatchMeTravel">
+            Code{' '}
+            <ExternalLinkIcon mx="2px" />
+          </Link>
 
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Preview</Center>
       </Heading>
 
-      <WorkImage src="/images/works/nc1.jpeg" alt="Netflix Clone" />
-      <WorkImage src="/images/works/nc2.jpeg" alt="Netflix Clone" />
+      <WorkImage src="/images/works/a1.png" alt="Netflix Clone" />
+      <WorkImage src="/images/works/a2.png" alt="Netflix Clone" />
     </Container>
   </Layout>
 )

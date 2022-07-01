@@ -4,9 +4,9 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/khel.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbPichu2 from '../public/images/works/NetflixClone.jpg'
+import thumbWalknote from '../public/images/works/fd1.jpeg'
+import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.png'
+import thumbPichu2 from '../public/images/works/wmt.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -23,7 +23,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="MyFood"
+            id="walknote"
             title="MyFood"
             thumbnail={thumbWalknote}
           >
@@ -46,14 +46,14 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old work
+          New work
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Netflix Clone">
-            A Netflix website clone using ReactJS.
+          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Watch me Travel">
+            A Social media App for travellers.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
